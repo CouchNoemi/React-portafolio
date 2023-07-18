@@ -7,6 +7,7 @@ const Header = () => {
       <img
         src="https://upload.wikimedia.org/wikipedia/donate/thumb/f/fd/Amazon-logo-white.svg/1024px-Amazon-logo-white.svg.png"
         alt="logo"
+        className="logo"
       />
       <div>
         <NavLink to="/">About Me</NavLink>

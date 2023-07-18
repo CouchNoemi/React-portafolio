@@ -3,15 +3,11 @@ import github from "../assets/github.png";
 import stackoverflow from "../assets/stackoverflow.png";
 import linkedin from "../assets/linkedin.png";
 import { Link } from "react-router-dom";
-
+import profile from "../assets/profile.jpeg";
 const Aboutme = () => {
   return (
-    <div className="container about">
-      <img
-        src="https://storage.needpix.com/rsynced_images/female-2835524_1280.jpg"
-        alt="myphoto"
-        className="myphoto"
-      />
+    <div className="myCon about">
+      <img src={profile} alt="profile" className="myPhoto" />
       <div>
         <h1>About Me</h1>
         <br />

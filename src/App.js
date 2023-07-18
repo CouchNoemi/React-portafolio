@@ -5,6 +5,7 @@ import Aboutme from "./sections/Aboutme";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Resume from "./sections/Resume";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

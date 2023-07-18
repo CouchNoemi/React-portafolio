@@ -15,7 +15,7 @@ header {
   top: 0;
   z-index: 1;
 }
-header img {
+.logo {
   width: 150px;
 }
 header div {
@@ -32,21 +32,22 @@ a {
   color: black !important;
 }
 
-.container {
+.myCon {
   background-color: #11230d;
   min-height: 100vh;
   padding: 100px 40px 40px;
   color: white;
 }
-.container p {
+.myCon p {
   font-size: 20px;
 }
 .about {
   display: flex;
   gap: 20px;
 }
-.about .myphoto {
-  width: 40%;
+.about .myPhoto {
+  width: 20%;
+  object-fit: contain;
 }
 
 .icons {
@@ -95,4 +96,31 @@ a {
 }
 .card:hover .overlay {
   display: flex;
+}
+
+.contact {
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+}
+.contact button {
+  background-color: #39752c;
+  width: 100%;
+}
+.contact button:hover {
+  background-color: #11230d;
+}
+.errorMsg {
+  font-size: 12px !important;
+  color: red;
+}
+
+footer {
+  background-color: #070e05;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
 }
