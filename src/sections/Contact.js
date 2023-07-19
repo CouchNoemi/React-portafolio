@@ -14,7 +14,7 @@ const Contact = () => {
       if (name.length <= 0) setNameErr("Enter a name");
     }
     if (field === "email") {
-      setEmailErr("");
+      //setEmailErr("");
       if (email.length <= 0) setEmailErr("Enter email address");
     }
     if (field === "message") {
@@ -23,9 +23,23 @@ const Contact = () => {
     }
   };
 
+  const handleEmailChange = (val) => {
+    setEmail(val);
+    const pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (pattern.test(val)) {
+      setEmailErr("");
+    } else {
+      setEmailErr("Wrong email");
+    }
+  };
+
   return (
     <div className="myCon">
       <div className="contact">
+        <div>
+          <p>My Email: noemicouch@gmail.com</p>
+          <p>My Tel: 63948737394</p>
+        </div>
         <div className="mb-3">
           <label for="nameInput" className="form-label">
             Name
@@ -46,7 +60,7 @@ const Contact = () => {
           </label>
           <input
             onBlur={() => handleFocusOut("email")}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => handleEmailChange(e.target.value)}
             type="email"
             className="form-control"
             id="emailInput"
