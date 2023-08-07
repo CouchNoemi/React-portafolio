@@ -1,63 +1,67 @@
 import React from "react";
 import Project from "../components/Project";
-import testingImg from "../assets/test.png";
-
+import WeatherForecast from "../assets/Weather Dashboard.png";
+import Pokemon from "../assets/Pokemon.png";
+import JsBackend from "../assets/JavaScript-logo.png";
+import NoteTaker from "../assets/NoteTaker.png";
+import CabinConundrum from "../assets/CabinCanundrun.png";
 const projects = [
   {
-    title: "Project 1",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "MERN",
-    img: testingImg,
+    title: "Weather forecast",
+    view: "https://couchnoemi.github.io/weather-forecast2nd/",
+    code: "https://github.com/CouchNoemi/weather-forecast2nd",
+    subTitle: "API",
+    img: WeatherForecast,
   },
   {
-    title: "Project 2",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "React",
-    img: testingImg,
+    title: "Read me Generator",
+    view: "https://drive.google.com/file/d/105qgysfpc_vM-FhnWaGIcaVDGVLM5Cu1/view",
+    code: "https://github.com/CouchNoemi/readme-generator#installation",
+    subTitle: "Node.js",
+    img: JsBackend,
   },
   {
-    title: "Project 3",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "MERN",
-    img: "https://www.creative-tim.com/blog/content/images/wordpress/2021/01/blog-4-1.jpg",
+    title: "Logo Maker",
+    view: "https://drive.google.com/file/d/1T6q4MnN1FzZ5iyC4zgrJ8ISKw1FCY4sI/view",
+    code: " https://github.com/CouchNoemi/Logo-maker",
+    subTitle: "Node.js Jest",
+    img: JsBackend,
   },
   {
-    title: "Project 4",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "HTML, CSS",
-    img: testingImg,
+    title: "Note Taker",
+    view: "https://note-takertwo.herokuapp.com/notes",
+    code: "https://github.com/CouchNoemi/note-taker",
+    subTitle: "Express",
+    img: NoteTaker,
   },
   {
-    title: "Project 5",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "MERN",
-    img: testingImg,
+    title: "Employee tracker",
+    view: "https://drive.google.com/file/d/1gvbAbBNEvGSiJWAtZIz9b-bQnEg_RpaM/view",
+    code: "https://github.com/CouchNoemi/employee-tracker",
+    subTitle: "mysql2, Inquirer, Express",
+    img: JsBackend,
   },
   {
-    title: "Project 6",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "React",
-    img: testingImg,
+    title: "E-commerce Back-end",
+    view: "https://drive.google.com/file/d/1-LcnokFiDjYzQXBoXiRPUXtHF9rSrEVn/view",
+    code: "https://github.com/CouchNoemi/ECommerce-BackEnd",
+    subTitle: "Express, Sequelize, mysql2",
+    img: JsBackend,
   },
   {
-    title: "Project 7",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "MERN",
-    img: testingImg,
+    title: "Pokemon App",
+    code: "https://carsov2.github.io/Poke-Gif/",
+    view: "https://github.com/Carsov2/Poke-Gif",
+    subTitle: "Javascript, Html, Css,Pokemon API",
+    img: Pokemon,
   },
   {
-    title: "Project 8",
-    view: "https://codewithtdesmond.com",
-    code: "https://github.com/NoemiCouch",
-    subTitle: "NodeJS",
-    img: testingImg,
+    title: "Cabin Conundrum",
+    view: "https://enigmatic-reaches-68692.herokuapp.com/",
+    code: "https://github.com/dylanstormjohnson/cabin-conundrum",
+    subTitle:
+      "handlebars.js, MySQL, jQuery, Anime.js, CSS, Bootstrap, and JavaScript",
+    img: CabinConundrum,
   },
 ];
 

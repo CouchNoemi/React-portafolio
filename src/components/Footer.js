@@ -3,12 +3,13 @@ import github from "../assets/github.png";
 import stackoverflow from "../assets/stackoverflow.png";
 import linkedin from "../assets/linkedin.png";
 import { Link } from "react-router-dom";
+import LogoNoemi from "../assets/LogoNoemi.png"
 
 const Footer = () => {
   return (
     <footer>
       <img
-        src="https://upload.wikimedia.org/wikipedia/donate/thumb/f/fd/Amazon-logo-white.svg/1024px-Amazon-logo-white.svg.png"
+        src= {LogoNoemi}
         alt="logo"
         className="logo"
       />

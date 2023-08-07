@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import LogoNoemi from "../assets/LogoNoemi.png";
 const Header = () => {
   return (
     <header>
       <img
-        src="https://upload.wikimedia.org/wikipedia/donate/thumb/f/fd/Amazon-logo-white.svg/1024px-Amazon-logo-white.svg.png"
+        src={LogoNoemi}
         alt="logo"
         className="logo"
       />
