@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-portafolio/static/css/main.9d60bb41.css",
+    "main.js": "/React-portafolio/static/js/main.fcf7c310.js",
+    "static/media/CabinCanundrun.png": "/React-portafolio/static/media/CabinCanundrun.abcd29cf5699f780a5ee.png",
+    "static/media/Pokemon.png": "/React-portafolio/static/media/Pokemon.284f8d6c6de24de217b8.png",
+    "static/media/Weather Dashboard.png": "/React-portafolio/static/media/Weather Dashboard.d97f33b7beee6f4c71ed.png",
+    "static/media/test-resume.pdf": "/React-portafolio/static/media/test-resume.1525515befba68fb876c.pdf",
+    "static/media/LogoNoemi.png": "/React-portafolio/static/media/LogoNoemi.c1734bd05ca0e074a21d.png",
+    "static/media/profile.jpeg": "/React-portafolio/static/media/profile.a7d854d4c84a821807a4.jpeg",
+    "static/media/github.png": "/React-portafolio/static/media/github.eceedf857870f48498ba.png",
+    "static/media/NoteTaker.png": "/React-portafolio/static/media/NoteTaker.929be722ed47fc091814.png",
+    "static/media/JavaScript-logo.png": "/React-portafolio/static/media/JavaScript-logo.ac9e504211b46cfb0118.png",
+    "index.html": "/React-portafolio/index.html",
+    "main.9d60bb41.css.map": "/React-portafolio/static/css/main.9d60bb41.css.map",
+    "main.fcf7c310.js.map": "/React-portafolio/static/js/main.fcf7c310.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d60bb41.css",
+    "static/js/main.fcf7c310.js"
+  ]
+}
