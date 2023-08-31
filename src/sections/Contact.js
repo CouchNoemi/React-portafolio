@@ -38,7 +38,7 @@ const Contact = () => {
       <div className="contact">
         <div>
           <p>My Email: noemicouch@gmail.com</p>
-          <p>My Tel: 63948737394</p>
+          <p>My Tel: 931-209-9753</p>
         </div>
         <div className="mb-3">
           <label for="nameInput" className="form-label">
